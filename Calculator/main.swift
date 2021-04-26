@@ -20,5 +20,12 @@ print("1 + 1 = \(1+1)")
 
 print("1 + 3 * 7 - 4 / 2 = \(1+3*7-4/2)")
 
+// 4. Versuch
+
+let aufgabe = "1 + 1"
+let ergebnis = 1 + 1
+
+print("\(aufgabe) = \(ergebnis)")
+
 
 
