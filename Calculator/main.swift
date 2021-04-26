@@ -7,5 +7,18 @@
 
 import Foundation
 
-print("Hello, World!")
+// 1. Versuch
+
+print("1 + 1 = 2")
+
+
+// 2. Versuch
+
+print("1 + 1 = \(1+1)")
+
+// 3. Versuch
+
+print("1 + 3 * 7 - 4 / 2 = \(1+3*7-4/2)")
+
+
 
