@@ -36,8 +36,29 @@ func addiere (zahl1: Double, zahl2 : Double) -> Double {
     return zahl1 + zahl2
 }
 
-let summe = addiere(zahl1: 1, zahl2: 2)
+func substraiere(zahl1: Double, zahl2: Double) -> Double {
+    
+    return zahl1 - zahl2
+}
 
-print ("1 + 1 = \(summe)")
+func multipliziere(zahl1: Double, zahl2: Double) -> Double {
+    
+    return zahl1 * zahl2
+}
+
+func dividiere(zahl1: Double, zahl2: Double) -> Double {
+    
+    return zahl1 / zahl2
+}
+
+let summe = addiere(zahl1: 1, zahl2: 1)
+let substraktion = substraiere(zahl1: 4, zahl2: 1)
+let multiplikation = multipliziere(zahl1: 2, zahl2: 3)
+let division = dividiere(zahl1: 12.5, zahl2: 2.5)
+
+print("1 + 1 = \(summe)")
+print("4 - 1 = \(substraktion)")
+print("2 * 3 = \(multiplikation)")
+print("12.5 / 2.5 = \(division)")
 
 
