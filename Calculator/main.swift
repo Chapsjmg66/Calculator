@@ -62,3 +62,5 @@ print("2 * 3 = \(multiplikation)")
 print("12.5 / 2.5 = \(division)")
 
 
+print("Nothing new ....")
+
