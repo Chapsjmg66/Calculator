@@ -27,5 +27,17 @@ let ergebnis = 1 + 1
 
 print("\(aufgabe) = \(ergebnis)")
 
+//Tutorial 2
+
+print ("Tutorial 2")
+
+func addiere (zahl1: Double, zahl2 : Double) -> Double {
+    
+    return zahl1 + zahl2
+}
+
+let summe = addiere(zahl1: 1, zahl2: 2)
+
+print ("1 + 1 = \(summe)")
 
 
